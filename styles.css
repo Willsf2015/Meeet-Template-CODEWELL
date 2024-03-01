@@ -1,0 +1,134 @@
+body {
+    background-color: #013243;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: 'Sen', sans-serif;
+    color: #32F5C8;
+    font-size: 130px;
+    line-height:130px;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    position: absolute;
+    left:270px;
+    z-index: 0;
+}
+
+.about {
+    width: 40%;
+}
+
+.avatar3-5-2 {
+    margin:0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    left:180px;
+    top: 80px;
+    column-gap: 39rem;
+   
+}
+
+.avatar5-2 {
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+.avatar6-1 {
+    display: flex;
+    position: absolute;
+    left:770px;
+    top:340px;
+    z-index: 1;
+    column-gap: 210px;
+}
+
+.neurs {
+    position: absolute;
+    top:172px;
+    left:820px;
+    z-index: 2;
+}
+
+.avatar1 {
+    position: absolute;
+    left: 355px;
+    bottom: 35px;
+}
+
+.avatar4 {
+    position: relative;
+    left:920px;
+    top: 220px;
+    padding-bottom: 50px;
+}
+
+.about {
+    margin: 0;
+    font-family: 'Inter';
+    color:#A9BDC6;
+    font-weight: 500;
+    position: relative;
+    top:450px;
+    left: 250px;
+    width: 400px;
+    line-height: 2rem;
+}
+
+.about button {
+    padding: 20px;
+    font-family: 'Inter';
+    color: #013243;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #32F5C8;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about button:hover {
+    background-color: rgb(29, 141, 115);
+    transition: 300ms ease-in-out;
+}
+
+.about a.twitter img {
+    width: 40px;
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    color:#A9BDC6;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.twitter:visited {
+    color:#A9BDC6;
+}
+
+.twitter:hover {
+    color:white;
+    transition: 300ms ease-in-out;
+}
+
+
+.avatar1, .avatar4, .avatar3-5-2 img, .avatar6-1 img {
+    transform: scale(0.9);
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 300px
+}
